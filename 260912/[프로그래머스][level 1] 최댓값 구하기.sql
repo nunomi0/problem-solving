@@ -1,0 +1,4 @@
+select datetime
+from animal_ins
+order by datetime desc
+fetch first 1 rows only
